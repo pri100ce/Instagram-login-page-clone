@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 410px;
+    width: 350px;
+    border: 1px solid #e4e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    flex-direction: column;
+}
+
+.btn{
+    font: 800;
+    color: white;
+    background-color: rgb(53, 164, 238);
+    border: none;
+    width: 100%;
+    height: 38px;
+    border-top-left-radius:5%;
+    border-top-right-radius:5%;
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius:5%;
+    margin-top: 9px;
+}
+
+.inputs{
+    height: 40px;
+    width: 270px;
+    background-color: #FAFAFA;
+    border: 1px solid rgb(227, 219, 219);
+    margin-bottom: 5px;
+    border-radius: 3%;
+    font-size: 12px;
+    padding: 9px 0px 7px 8px;
+}
+
+.content form{
+    column-gap: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(23, 151, 236);
+}
+
+
+.or{
+    color: #737373;
+    font-weight: 900;
+    font-family:verdana;
+    font-size: 14px;
+}
+
+.spans{
+    margin-top: 20px;
+    color: #737373;
+    
+}
+
+.line{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.inst{
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+
+.face{
+    height: 16px;
+    border-radius: 2%;
+    margin-right: 7px;
+}
+
+.flogin{
+    text-decoration: none;
+    color: #385185;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.facebook{
+    margin-top: 30px;
+}
+
+.forgot{
+    margin-top: 25px;
+    margin-bottom: 95px;
+}
+
+.forgot a{
+    font-size: 14px;
+    font-family:'sans-serif';
+    color: #00376B;
+    text-decoration: none;
+}
+
+.signup a{
+    text-decoration: none;
+    color: rgb(53, 164, 238);
+    font-weight: 800;
+    font-family:'verdna';
+}
+
+.signup p{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e4e1e1;
+    width: 350px;
+    height: 65px;
+    margin-top: 10px;
+}
+.getapp p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer{
+    margin-top: 12px;
+}
+
+.footer img{
+    border-radius: 5%;
+}
+
+.gpay{
+    margin-right: 5px;
+}
+
+.linkes a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#737373 ;
+}
+
+.linkes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.lineset{
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.end{
+    margin:12px 0px;
+    height:100 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #737373;
+    margin-bottom: 100px;
+    margin-top: 12px;
+}
+
+.end select{
+    font-size: 12px;
+    color: #737373;
+    margin-right: 10px;
+    border: none;
+}
